@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: 24px;
 }
 
 html,
@@ -108,13 +109,7 @@ input[type="number"] {
 // ios button \ inputs reset
 select,
 textarea,
-input:matches([type="email"],
-  [type="number"],
-  [type="password"],
-  [type="search"],
-  [type="tel"],
-  [type="text"],
-  [type="url"]) {
+input:matches([type="email"], [type="number"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"]) {
   appearance: none;
 }
 

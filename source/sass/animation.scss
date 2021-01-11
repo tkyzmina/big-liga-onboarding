@@ -1,0 +1,39 @@
+@keyframes flag {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.005);
+  }
+}
+
+@keyframes growArrow {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(0.5%);
+  }
+}
+
+@keyframes growArrowBlue {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(1%);
+  }
+}
+
+@keyframes growArrowRed {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(1%);
+  }
+}
